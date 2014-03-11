@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F4422AC18CF822B00187949 /* NSData+LLDBQuickLook.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4422A218CF822B00187949 /* NSData+LLDBQuickLook.h */; };
+		6F4422AD18CF822B00187949 /* NSData+LLDBQuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4422A318CF822B00187949 /* NSData+LLDBQuickLook.m */; };
+		6F4422AE18CF822B00187949 /* NSObject+LLDBQuickLook.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4422A418CF822B00187949 /* NSObject+LLDBQuickLook.h */; };
+		6F4422AF18CF822B00187949 /* NSObject+LLDBQuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4422A518CF822B00187949 /* NSObject+LLDBQuickLook.m */; };
+		6F4422B018CF822B00187949 /* NSString+LLDBQuickLook.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4422A618CF822B00187949 /* NSString+LLDBQuickLook.h */; };
+		6F4422B118CF822B00187949 /* NSString+LLDBQuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4422A718CF822B00187949 /* NSString+LLDBQuickLook.m */; };
+		6F4422B218CF822B00187949 /* UIImage+LLDBQuickLook.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4422A818CF822B00187949 /* UIImage+LLDBQuickLook.h */; };
+		6F4422B318CF822B00187949 /* UIImage+LLDBQuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4422A918CF822B00187949 /* UIImage+LLDBQuickLook.m */; };
+		6F4422B418CF822B00187949 /* UIView+LLDBQuickLook.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4422AA18CF822B00187949 /* UIView+LLDBQuickLook.h */; };
+		6F4422B518CF822B00187949 /* UIView+LLDBQuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4422AB18CF822B00187949 /* UIView+LLDBQuickLook.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F44227718CF821000187949 /* LLDB-QuickLook.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "LLDB-QuickLook.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4422A218CF822B00187949 /* NSData+LLDBQuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+LLDBQuickLook.h"; sourceTree = "<group>"; };
+		6F4422A318CF822B00187949 /* NSData+LLDBQuickLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+LLDBQuickLook.m"; sourceTree = "<group>"; };
+		6F4422A418CF822B00187949 /* NSObject+LLDBQuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LLDBQuickLook.h"; sourceTree = "<group>"; };
+		6F4422A518CF822B00187949 /* NSObject+LLDBQuickLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LLDBQuickLook.m"; sourceTree = "<group>"; };
+		6F4422A618CF822B00187949 /* NSString+LLDBQuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LLDBQuickLook.h"; sourceTree = "<group>"; };
+		6F4422A718CF822B00187949 /* NSString+LLDBQuickLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LLDBQuickLook.m"; sourceTree = "<group>"; };
+		6F4422A818CF822B00187949 /* UIImage+LLDBQuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LLDBQuickLook.h"; sourceTree = "<group>"; };
+		6F4422A918CF822B00187949 /* UIImage+LLDBQuickLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LLDBQuickLook.m"; sourceTree = "<group>"; };
+		6F4422AA18CF822B00187949 /* UIView+LLDBQuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LLDBQuickLook.h"; sourceTree = "<group>"; };
+		6F4422AB18CF822B00187949 /* UIView+LLDBQuickLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LLDBQuickLook.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F44227418CF821000187949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F44226E18CF821000187949 = {
+			isa = PBXGroup;
+			children = (
+				6F4422A118CF822B00187949 /* DataProviders */,
+				6F44227918CF821000187949 /* Frameworks */,
+				6F44227818CF821000187949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F44227818CF821000187949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F44227718CF821000187949 /* LLDB-QuickLook.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F44227918CF821000187949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F4422A118CF822B00187949 /* DataProviders */ = {
+			isa = PBXGroup;
+			children = (
+				6F4422A218CF822B00187949 /* NSData+LLDBQuickLook.h */,
+				6F4422A318CF822B00187949 /* NSData+LLDBQuickLook.m */,
+				6F4422A418CF822B00187949 /* NSObject+LLDBQuickLook.h */,
+				6F4422A518CF822B00187949 /* NSObject+LLDBQuickLook.m */,
+				6F4422A618CF822B00187949 /* NSString+LLDBQuickLook.h */,
+				6F4422A718CF822B00187949 /* NSString+LLDBQuickLook.m */,
+				6F4422A818CF822B00187949 /* UIImage+LLDBQuickLook.h */,
+				6F4422A918CF822B00187949 /* UIImage+LLDBQuickLook.m */,
+				6F4422AA18CF822B00187949 /* UIView+LLDBQuickLook.h */,
+				6F4422AB18CF822B00187949 /* UIView+LLDBQuickLook.m */,
+			);
+			path = DataProviders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F44227518CF821000187949 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4422AC18CF822B00187949 /* NSData+LLDBQuickLook.h in Headers */,
+				6F4422B418CF822B00187949 /* UIView+LLDBQuickLook.h in Headers */,
+				6F4422B218CF822B00187949 /* UIImage+LLDBQuickLook.h in Headers */,
+				6F4422AE18CF822B00187949 /* NSObject+LLDBQuickLook.h in Headers */,
+				6F4422B018CF822B00187949 /* NSString+LLDBQuickLook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F44227618CF821000187949 /* LLDB-QuickLook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F44229B18CF821000187949 /* Build configuration list for PBXNativeTarget "LLDB-QuickLook" */;
+			buildPhases = (
+				6F44227318CF821000187949 /* Sources */,
+				6F44227418CF821000187949 /* Frameworks */,
+				6F44227518CF821000187949 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LLDB-QuickLook";
+			productName = "LLDB-QuickLook";
+			productReference = 6F44227718CF821000187949 /* LLDB-QuickLook.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F44226F18CF821000187949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 6F44227218CF821000187949 /* Build configuration list for PBXProject "LLDB-QuickLook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F44226E18CF821000187949;
+			productRefGroup = 6F44227818CF821000187949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F44227618CF821000187949 /* LLDB-QuickLook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F44227318CF821000187949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4422AD18CF822B00187949 /* NSData+LLDBQuickLook.m in Sources */,
+				6F4422B118CF822B00187949 /* NSString+LLDBQuickLook.m in Sources */,
+				6F4422B518CF822B00187949 /* UIView+LLDBQuickLook.m in Sources */,
+				6F4422AF18CF822B00187949 /* NSObject+LLDBQuickLook.m in Sources */,
+				6F4422B318CF822B00187949 /* UIImage+LLDBQuickLook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F44229918CF821000187949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F44229A18CF821000187949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		6F44229C18CF821000187949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F44229D18CF821000187949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F44227218CF821000187949 /* Build configuration list for PBXProject "LLDB-QuickLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F44229918CF821000187949 /* Debug */,
+				6F44229A18CF821000187949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F44229B18CF821000187949 /* Build configuration list for PBXNativeTarget "LLDB-QuickLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F44229C18CF821000187949 /* Debug */,
+				6F44229D18CF821000187949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F44226F18CF821000187949 /* Project object */;
+}
